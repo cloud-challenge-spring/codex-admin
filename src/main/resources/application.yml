@@ -1,0 +1,11 @@
+server:
+  port: 8886
+
+---
+spring:
+  profiles: dev
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server:8887/eureka/
