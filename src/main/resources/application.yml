@@ -4,7 +4,6 @@ server:
 
 eureka:
   client:
-    registerWithEureka: true
     serviceUrl.defaultZone: http://eureka-server:8080/eureka/
 
 ---
@@ -22,6 +21,5 @@ spring:
 
 eureka:
   client:
-    registerWithEureka: true
     serviceUrl.defaultZone: http://eureka-server:8080/eureka/
 
